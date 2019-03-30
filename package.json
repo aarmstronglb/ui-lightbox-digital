@@ -1,13 +1,14 @@
 {
-  "name": "ui-theme-template",
+  "name": "lightbox-digital-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "Atom theme UI for Lightbox Digital",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "lightbox"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/aarmstronglb/ui-lightbox-digital",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
