@@ -12,10 +12,10 @@
 
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
-@text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
-@text-color-selected:  hsl(0,0%,100%);
+@text-color:           #01E6DD;
+@text-color-subtle:    hsla(178, 99%, 45%, 0.67); //This is the teal colour, but toned down.
+@text-color-highlight: #EECF00;
+@text-color-selected: #EECF00;
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
@@ -29,11 +29,11 @@
 @background-color-error:   hsl(0,    70%, 50%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
-@app-background-color:       darken(@base-background-color, 5%);
+@background-color-selected:  #5A44FF;
+@app-background-color:       #374753;
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
+@base-background-color: #2C2B3C;
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
@@ -46,7 +46,7 @@
 @tool-panel-background-color: @base-background-color;
 @tool-panel-border-color:     @base-border-color;
 
-@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-background-color: @base-background-color;
 @inset-panel-border-color:     @base-border-color;
 
 @panel-heading-background-color: lighten(@base-background-color, 4%);
